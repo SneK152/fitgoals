@@ -2,7 +2,6 @@
   padding: 0 2rem;
 }
 
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -32,18 +31,16 @@
   font-size: 1.5rem;
 }
 
-
 .grid {
   float: left;
   display: flex-start;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   max-width: 800px;
 }
 
 .card {
-  
   margin: 1rem;
   padding: 0.5rem;
   text-align: center;
@@ -58,7 +55,6 @@
 .card:hover,
 .card:focus,
 .card:active {
-  
   color: #0070f3;
   border-color: #0070f3;
 }
@@ -74,9 +70,16 @@
   line-height: 1.5;
 }
 
-.centerarrow{
-  display: center;
+.centerarrow {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
   font-size: 10rem;
+  user-select: none;
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
