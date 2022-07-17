@@ -3,13 +3,11 @@ import {
   CircularProgress,
   FormControl,
   InputLabel,
-  Menu,
   MenuItem,
   Paper,
   Select,
   TextField,
 } from "@mui/material";
-import axios from "axios";
 import Head from "next/head";
 import { useRef, useState } from "react";
 import styles from "../styles/Home.module.css";
